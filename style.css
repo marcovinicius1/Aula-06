@@ -1,0 +1,56 @@
+h2 {
+  background-color: black;
+  color: white;
+  border: black 10px solid;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 85%;
+  margin: 10px auto 20px;
+  height: 30px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article.card {
+  width: 27%;
+  height: 580px;
+  border: black 1px solid;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 70%;
+  height: auto;
+  margin: 20px auto 20px;
+}
+
+
+figcaption{
+  margin-top: -20px; 
+}
+
+
+.linha{
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+}
+
+article .card, h1, p {
+  text-align: left;
+  font-size: 18pt;
+  margin-left: 5px;
+}
+
+a, .link-azul{
+  text-align: left;
+  display: flex;
+  margin-left: 6px;
+}
